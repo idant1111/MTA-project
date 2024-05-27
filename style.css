@@ -1,0 +1,60 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Create a container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Create a header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Create a navigation menu */
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+/* Create a main content area */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Create a footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
